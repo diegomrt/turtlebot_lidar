@@ -8,7 +8,21 @@ The simulated robot includes a Kobuki base, an Orbec Astra RGBD camera and a Hok
 | ------------------------------- | -------------------------------- |
 | ![](./img/turtlebot_hokuyo.png) | ![](./img/turtlebot_rplidar.png)  |
 
-## Turtlebot 2 with Hokuyo Lidar ## 
+
+## Installation ## 
+
+Clone the package into your catkin workspace:
+
+```sh
+cd [catkin_workspace]/src
+git clone https://github.com/diegomrt/turtlebot_lidar.git
+cd ..
+catkin_make
+source devel/setup.bash
+```
+
+## Usage ## 
+### Turtlebot 2 with Hokuyo Lidar ### 
 
 After installing, to launch the version with Hokuyo lidar, run:
 
@@ -23,7 +37,7 @@ The simulated characteristics of the Hokuyo lidar are:
 * Samples: 720
 * Freq: 40 Hz
 
-## Turtlebot 2 with RPLidar A2M8 ## 
+### Turtlebot 2 with RPLidar A2M8 ### 
 
 After installing, to launch the version with RPLidar A2, run:
 
